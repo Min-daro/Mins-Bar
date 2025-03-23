@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="tatay">
+      <div class="top">
+        <div class="logo"></div>
+      </div>
+
+      <div class="nav">
+        <a href="index.html"><button class="navbutton" id="homeTEXT">HOME</button></a>
+        <a href="about.html"><button class="navbutton" id="aboutTEXT">ABOUT US</button></a>
+        <a href="Menu.html"><button class="navbutton">MENU</button></a>
+        <a href="Reservation.html"><button class="navbutton">RESERVATION</button></a>
+        <input type="text" placeholder="search..." />
+      </div>
+      <div class="main">
+        <div class="box1">
+          <div class="Drinks">
+
+              <p class="drinkhead"><b>Drinks</b></p>
+            <div class="drinkmain">
+              <div class="firstDrinks">
+                <p>Classic Mojito.....................294</p>
+                <p>Royale Martini.....................411</p>
+                <p>Daiquiri...........................529</p>
+              </div>
+              <div class="secondDrinks">
+                <p>Bourbon Flip.......................323</p>
+                <p>Old Fashioned......................529</p>
+                <p>Paper plane........................353</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="Foods">
+
+              <p class="Foodshead"><b>Foods</b></p>
+            <div class="Foodsmain">
+              <div class="firstFoods">
+                <p>Shrimp Tempora.....................299</p>
+                <p>Pork Sisig.........................235</p>
+                <p>Dynamite...........................260</p>
+              </div>
+              <div class="secondFoods">
+                <p>Lechon Kawali......................260</p>
+                <p>Crispy Pata........................235</p>
+                <p>Tokwa't Baboy......................353</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="box2">
+          <div class="text">
+            My bar is a lively and inviting space where guests can enjoy a wide
+            variety of alcoholic beverages, including expertly crafted
+            cocktails, premium whiskeys, and fine wines. Whether you're in the
+            mood for a refreshing mixed drink or a sophisticated glass of wine,
+            our selection has something for every taste. In addition to our
+            extensive drink options, we also offer a diverse menu of delicious
+            food choices. From small bites perfect for sharing to hearty meals
+            that will satisfy your appetite, each dish is thoughtfully crafted
+            to complement our beverages and elevate the overall experience.
+            Whether you're here to unwind with friends, celebrate a special
+            occasion, or simply enjoy a night out, our bar provides a welcoming
+            atmosphere where you can relax and indulge in both great drinks and
+            food. It’s the perfect spot to enjoy a memorable time with those you
+            care about.
+          </div>
+          <div class="picNvid">
+            <div class="picture">
+              <button class="arrow left" onclick="moveSlide(-1)">&#8592;</button>
+              <div class="slides">
+                <img src="firstDrink.jpg" alt="Slide 1" height="100%">
+                <img src="secondDrink.jpg" alt="Slide 2">
+                <img src="thirdDrink.jpg" alt="Slide 3">
+                <img src="Bourbon Flip.jpg" alt="Slide 4">
+                <img src="Old Fashioned.jpg" alt="Slide 5">
+                <img src="Paper Plane.jpg" alt="Slide 6">
+              </div>
+              <button class="arrow right" onclick="moveSlide(1)">&#8594;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

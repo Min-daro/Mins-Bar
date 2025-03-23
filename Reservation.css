@@ -1,0 +1,104 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.tatay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(159, 120, 159)
+}
+
+.top {
+    height:20%;
+    width: 100%;
+    background-color: rgb(241, 83, 209);
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 100%;
+    width: 200px;
+    background-image: url(logo.jpg);
+    border-radius: 25px;
+    background-position: center;
+    background-size: 250px;
+}
+.nav {
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly   ;
+    align-items: center;
+}
+.navbutton {
+font-size: 30px;
+background-color: transparent;
+border: NONE;
+}
+
+input{
+    font-size: 30px;
+}
+#ReservationTEXT {
+    color:aliceblue
+}
+
+.reservation-section {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reservation-form label {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.reservation-form input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #e86adf; /* Coffee brown */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservation-button:hover {
+    background-color: #c830a9; /* Darker brown */
+}
+
+.confirmation-message {
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: green;
+}
